@@ -1,0 +1,17 @@
+iName, iRad, iColor, NoOfMoons,ListOfMoons
+Mercury,1516,Red,0
+Venus,3760.4,Red,0
+Earth,3958.8,Blue,1,Luna
+Mars,2106.1,Brown,2,Phobos,Deimos
+Jupiter,43441,brown,79,Europa,Io,Ganymede,Callisto,Amalthea, Adrastea
+Saturn,36184,maroon,53,Titan, Enceladus, Mimas, Dione, Iapetus, Tethys, Hyperion
+Uranus,15759,blue,27,Miranda
+Neptune,15299,navy,14,Triton
+Pluto,1473,Gray,5,Charon,Hydra,Nix,"Kerberos Belt",Styx
+Eris,1445,Gray,1,Dysnomia
+Orcus,600,Gray,1,Vanth
+Varda,434.9,Gray,1,Illmare
+Haumea,385,Gray,2,Hiiaka,Namaka
+Salacia,538,Gray,1,Actae
+Quaoar,690,Gray,1,Eeywot
+Gongg,760,Gray,1,Dysnomia

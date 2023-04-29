@@ -1,0 +1,19 @@
+NAME,RADIUS, MASS, DISTANCE_FROM_SUM, COLOR, IS_Dwarf, NO_OF_MOONS
+{ "Mercury": [1516,3.285,1,Red,False,0],
+  "Venus": [3760,4.867,5.24,Red,False,0],
+Earth,3958,5.972,1,Blue,False,1
+Mars,2106,1,1,Brown,False,2
+Ceres,293.91,1,2.08,Blue,True,0
+Hygiea,137.94,8.67,1,GrayTrue,0
+Jupiter,43441,1.898,1,Gray,False,7
+Saturn,36184,5.683,1,Gray,8
+Uranus,1,1,1,Gray,False,2
+Neptune,1,1,1,Gray,False,3
+Pluto,1,1,1,Gray,True,5
+Eris,1,1,1,Gray,True,1
+Orcus,1,1,1,Gray,True,1
+Varda,1,1,1,Gray,True,1
+Haumea,1,1,1,Gray,True,2
+Salacia,1,1,1,Gray,True,1
+Quaoar,1,1,1,Gray,True,1
+Gongg,1,1,1,Gray,True,1

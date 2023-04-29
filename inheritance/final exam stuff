@@ -1,0 +1,47 @@
+
+review w3 schools
+
+4 initial questions about sets, lists, tuples, dictionaries (1 each at the beginning)
+
+class= cookie cutter, the base for objects to be created
+class MyClass
+    x = 5
+
+
+p1 = Myclass()
+print(p1.x)
+
+
+
+to encapsulate
+ set variables to private by adding __ to self.__name or such
+ then add getters and setters (which are called constructors)
+ if this "def __str__(self):" is not there, calling the function would show its location
+
+
+ inheritance = generalization
+ parent has generalized classes while the child class has specialization while inheriting the parent's attributes
+
+ non-private functions also get inherited by the child class
+ refer back to the vehicle.py files to review reuse-ability and inheritance
+
+ It is multiple choice for the most part (95% multiple choice)
+
+Recursion- "it is bad from a performance perspective. better to use a while loop for that reason"
+
+base case- so it doesn't loop forever. like below
+def main():
+    message()
+
+def message():
+    print("this message prints forever")
+
+main()
+
+self.name = name
+self.age = age
+data members = (self.name and self.age)
+
+
+def __init__ is called a initializer or constructor
+

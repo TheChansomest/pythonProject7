@@ -1,0 +1,9 @@
+Recursion is when a function calls itself
+
+5! = 5*4!
+5! = 5*4*3!
+5! = 5*4*3*2
+5! = 5*4*3*2*1!
+1! returns 1
+
+needs base case- so you don't cause a stack overflow

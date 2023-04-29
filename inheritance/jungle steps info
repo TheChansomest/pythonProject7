@@ -1,0 +1,35 @@
+# 1. class declaration
+#   declare a class called Jungle and add a method to it called
+    welcomeToMyJungle which prints
+#   "Welcome to my Jungle, I am Omarzan the TRUE master of the Jungle, ready to serve! "
+
+
+# 2. create an object called j (or lifeless_paradise or The neverending_jungle)
+
+
+# 3. call the welcomeToMyJungle() method and pass your name to it.
+
+
+# 4.1 add 2 private attributes to the Jungle class and call them, j_name and j_true_hero
+# 4.2 add a constructor method to define and initialize the instant
+        varaible j_name and j_true_hero and give them default values
+#       of "UnKnown" and "OmarZan" if no values are passed to it.
+# constructor with default values
+
+# 5. put all none class code in main and call jungleBook.py.
+
+# 6. really make it more manageable and move your class to a separate file
+     call it Jungle.py and just import it using
+#       from Jungle import * in this file which should be called jungleBook.py
+
+# 7. create another object in main and call it k without parameters.
+
+# 8. create two more classes called AfricanJungle and SouthAmericanJungle
+     that inherit from the Jungle class
+#       remember to add these classes to Jungles.py. adjust import statements if needed.
+# 8.1 in AfricanJungle call the parent class to set the name to "AfricanJungle"
+# 8.2 do the same for the SouthAmericanJungle and set the name to "SouthAmerican"
+#
+#   tip for 8.1 and 8.2 call the parent init method as follows: super().__init__(name)
+
+# 9.  in main create 2 objects one for each and call the welcomeMessage() method
