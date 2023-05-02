@@ -10,7 +10,7 @@ for key in a_dict:
 
 # Collections: 2. Lists
 print_line("2. lists")
-
+print(x for x in range(10))
 
 # Collections: 3. Sets
 print_line("3. Sets")
@@ -27,7 +27,7 @@ class MyClass:
 
 p1 = MyClass()
 print(p1.x)
-
+print(str(p1.x) * 5)
 # OO 2. __init__
 class Person:
     def __init__(self, name, age):
@@ -41,6 +41,7 @@ class Person:
         print("Hello my name is " , self.name, "you are ", self.age, " years old")
 
 print_line("Object-Oriented - 2. __init__")
+
 p1 = Person("John", 36)
 print(p1.name)
 print(p1.age)
@@ -68,7 +69,7 @@ class Student(Person2):
 
 
     def welcome(self):
-        print("Welcome", self.__fname, self.__lname, "to the class of", self.graduationyear)
+        print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
 
 
 #Use the Person class to create an object, and then execute the printname method:

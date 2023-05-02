@@ -2,11 +2,11 @@ from graphics import *
 import time
 import math
 
-num_dots = 80
-distance_between_dots = 25
+num_dots = 150
+distance_between_dots = 15
 size = 5
-speed_of_follow = 1.5
-speed = 0.001
+speed_of_follow = 1.25
+speed = 0.0001
 
 def follow(prev_dot, curr_dot):
     dx = prev_dot.getCenter().getX() - curr_dot.getCenter().getX()
